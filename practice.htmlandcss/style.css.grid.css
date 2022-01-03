@@ -1,0 +1,33 @@
+.container {
+    background-color:grey;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.one{
+ background-color: tomato;
+ padding:10px;
+ margin-bottom: 5px;
+}
+
+.two{
+ background-color: burlywood;
+}
+.three{
+background-color: red;
+}
+
+.four{
+background-color: yellowgreen;
+}
+
+.five{
+background-color: yellow;
+}
+
+.six{
+background-color: aqua;
+}

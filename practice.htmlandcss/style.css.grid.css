@@ -5,6 +5,8 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto;
+    
+   
 }
 
 .one{
@@ -15,19 +17,24 @@
 
 .two{
  background-color: burlywood;
+ padding: 30px;
 }
 .three{
 background-color: red;
+padding: 30px;
 }
 
 .four{
 background-color: yellowgreen;
+padding:30px;
 }
 
 .five{
 background-color: yellow;
+padding: 30px;
 }
 
 .six{
 background-color: aqua;
+padding: 30px;
 }

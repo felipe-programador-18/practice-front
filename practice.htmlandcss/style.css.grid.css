@@ -48,6 +48,7 @@ padding: 30px;
     color: white;
     display: grid;
     grid-template: 10px;
+    padding: 10px;
 }
 
 .otherone{

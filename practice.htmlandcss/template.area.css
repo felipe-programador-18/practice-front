@@ -1,0 +1,36 @@
+.container{
+    padding: 10px;
+    display: grid;
+    background-color: grey;
+    color: white;
+}
+
+.one{
+    background-color: aquamarine;
+}
+
+.two{
+    background-color: deepskyblue;
+}
+
+.three{
+    background-color: cadetblue;
+}
+
+.four{
+    background-color: wheat;
+}
+
+.five{
+    background-color: firebrick;
+}
+
+.six{
+    background-color: yellow;
+}
+
+
+.reac{
+    height: 50px;
+    width: 50px;
+}

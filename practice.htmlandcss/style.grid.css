@@ -1,0 +1,41 @@
+
+.container{
+    display: grid;
+    background-color: grey;
+    color: white;
+    height: 400px;
+    grid-template: 100px 100px / 1fr 1fr 1fr;
+    padding:10;
+    gap: 10px;
+    justify-items: flex-end;
+}
+
+.one{
+background-color: aqua;
+}
+
+.two{
+background-color: chocolate;
+}
+
+.three{
+background-color:royalblue ;
+}
+
+.four{
+background-color: crimson;
+}
+
+.five{
+background-color: darkolivegreen;
+}
+
+.six{
+background-color: dodgerblue;
+}
+
+
+.reac{
+    height: 100px;
+    width: 100px;
+}

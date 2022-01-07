@@ -1,36 +1,43 @@
 .container{
-    padding: 10px;
+    color: white;
     display: grid;
     background-color: grey;
-    color: white;
+    
+    padding: 10px;
+    grid-template-areas: "a1 a1 a1 a1 a1 a1"
+                         "a1 a1 a2 a2 a2 a2"
+                         "a4 a4 a4 a5 a5 a5"
+                         "a6 a2 a2 a3 a6 a6"
 }
 
-.one{
-    background-color: aquamarine;
+.r1{
+background-color: gold;
 }
 
-.two{
-    background-color: deepskyblue;
+.r2{
+ background-color: goldenrod;
 }
 
-.three{
-    background-color: cadetblue;
-}
-
-.four{
-    background-color: wheat;
-}
-
-.five{
-    background-color: firebrick;
-}
-
-.six{
-    background-color: yellow;
+.r3{
+ background-color: lightgray;
 }
 
 
-.reac{
-    height: 50px;
-    width: 50px;
+.item1{
+ grid-area: a1;
+}
+.item2{
+    grid-area: a2;
+}
+.item3{
+    grid-area: a3;
+}
+.item4{
+    grid-area: a4;
+}
+.item5{
+    grid-area: a5;
+}
+.item6{
+    grid-area: a6;
 }

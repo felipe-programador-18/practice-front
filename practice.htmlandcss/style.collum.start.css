@@ -1,0 +1,54 @@
+.container{
+    color: white;
+    display: grid;
+    background-color: grey;
+    
+    padding: 10px;
+    
+    /*grid-template-areas: "a2 a2 a2 a2 a2 a2"
+                         "a1 a1 a3 a3 a3 a3"
+                         "a4 a4 a4 a5 a5 a5"
+                         "a6 a6 a6 a6 a6 a6" */
+
+    grid-template: auto auto auto auto / auto auto auto auto auto auto;                      
+}
+
+.r1{
+background-color: blue;
+
+}
+
+.r2{
+ background-color:yellow;
+
+}
+
+.r3{
+ background-color:red;
+
+}
+
+
+.item1{
+ grid-column-start: 1;
+ grid-column-end: 3;
+ grid-row-start: 2;
+ grid-row-start: 4;
+
+}
+.item2{
+   grid-column-start: 1;
+   grid-column-end: 7;
+}
+.item3{
+   
+}
+.item4{
+   
+}
+.item5{
+
+}
+.item6{
+   
+}

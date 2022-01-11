@@ -1,0 +1,17 @@
+.container{
+    color: white;
+    background-color: grey;
+    display: grid;
+    padding: 10px;
+
+
+    grid-template: auto auto / auto auto auto;
+}
+
+.one{
+    background-color: crimson;
+}
+
+.two{
+    background-color: aquamarine;
+}

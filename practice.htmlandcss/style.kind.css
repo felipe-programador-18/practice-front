@@ -1,18 +1,22 @@
 .container{
     color: white;
     background-color: grey;
+    padding: 10px;
     display: grid;
+
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    
+    gap: 20px;
 }
 
 .one{
     background-color: crimson;
+    padding: 20px;
 }
 
 .two{
     background-color: aquamarine;
+    padding: 40px;
 }
 
 .three{

@@ -3,44 +3,40 @@
     color: black;
     padding: 10px;
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
-    gap:20px;
+    grid-template: 100px 100px / 1fr 2fr 1fr;
+
+    grid-gap:20px;
     margin-bottom: 100px;
    
 }
 
 .one{
  background-color: tomato;
- padding:30px;
-
+ padding: 20px;
 }
 
 .two{
  background-color: burlywood;
- padding: 30px;
-
+ padding: 20px;
 }
 .three{
 background-color: red;
-padding: 30px;
-
+padding: 20px;
 }
 
 .four{
 background-color: yellowgreen;
-padding:30px;
-
+padding: 20px;
 }
 
 .five{
 background-color: yellow;
-padding: 30px;
+padding: 20px;
 }
 
 .six{
 background-color: aqua;
-padding: 30px;
+padding: 20px;
 }
 
 .thought{

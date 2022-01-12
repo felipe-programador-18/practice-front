@@ -1,0 +1,34 @@
+.container{
+    color: white;
+    background-color: grey;
+    display: grid;
+    padding: 20px;
+
+    grid-template: 100px 100px / 1fr 2fr 1fr;
+    gap: 10px;
+    height: 600px;
+    justify-items:stretch;
+    background-image: url(../img.001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.r1{
+background-color: aqua;
+padding: 40px;
+}
+.r2{
+    background-color: chocolate;
+}
+
+.r3{
+    background-color: tomato;
+}
+
+
+.rect{
+
+    
+}
+

@@ -1,3 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
 .container{
     color: white;
     background-color: grey;
@@ -6,8 +11,11 @@
 
     grid-template: 100px 100px / 1fr 2fr 1fr;
     gap: 10px;
+    justify-items: stretch;
+
     height: 600px;
-    justify-items:stretch;
+
+
     background-image: url(../img.001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +24,6 @@
 
 .r1{
 background-color: aqua;
-padding: 40px;
 }
 .r2{
     background-color: chocolate;
@@ -28,7 +35,6 @@ padding: 40px;
 
 
 .rect{
-
-    
+ 
 }
 

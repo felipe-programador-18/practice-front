@@ -20,3 +20,32 @@
 .r3{
     background-color: darkgoldenrod;
 }
+
+
+.item1{
+ grid-column-start:1 ;
+ grid-column-end:3 ;
+ grid-row-start: 2;
+ grid-row-end: 4;
+}
+
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.item3{
+    grid-column-end: span 4;
+}
+.item4{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    
+}
+.item5{
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.item6{
+    
+}

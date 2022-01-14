@@ -1,0 +1,22 @@
+.container{
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    display: grid;
+
+    grid-template: auto auto auto auto / auto auto auto auto auto auto;
+
+}
+
+
+
+.r1{
+    background-color: yellow;
+}
+.r2{
+    background-color: red;
+}
+
+.r3{
+    background-color: darkgoldenrod;
+}

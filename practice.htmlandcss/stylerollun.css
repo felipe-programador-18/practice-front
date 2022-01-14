@@ -12,13 +12,16 @@
 
 .r1{
     background-color: yellow;
+    padding: 30px;
 }
 .r2{
     background-color: red;
+    padding: 30px;
 }
 
 .r3{
     background-color: darkgoldenrod;
+    padding: 40px;
 }
 
 
@@ -47,5 +50,5 @@
     grid-column-start: 3;
 }
 .item6{
-    
+    grid-column-end: span 6;
 }

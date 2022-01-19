@@ -22,3 +22,28 @@ const Moveon = (x,y,z) =>{
 setInterval(() => {
  Moveon(Yinitial++, Xinitial++, Zinitial++)    
 }, 100);
+
+
+let anotherplay = document.getElementById('anotherplay')
+
+anotherplay.style.top = '70px'
+anotherplay.style.right='40px'
+anotherplay.style.left='60px'
+
+let Ainitial = 0
+let Binitial = 0
+let Cinitial = 0
+
+const Othermove = (a,b,c) =>{
+    let posa = a +'pa'
+    let posb = b + 'pb'
+    let posc = c + 'pc'
+
+    anotherplay.style.top = posa
+    anotherplay.style.right =posb
+    anotherplay.style.left = posc
+}
+
+setInterval( ()=>{
+   Othermove(Ainitial++, Binitial++, Cinitial++)
+}, 300)

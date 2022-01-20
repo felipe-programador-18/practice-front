@@ -30,6 +30,7 @@ anotherplay.style.top = '70px'
 anotherplay.style.right='40px'
 anotherplay.style.left='60px'
 
+
 let Ainitial = 0
 let Binitial = 0
 let Cinitial = 0
@@ -46,4 +47,4 @@ const Othermove = (a,b,c) =>{
 
 setInterval( ()=>{
    Othermove(Ainitial++, Binitial++, Cinitial++)
-}, 300)
+}, 500)

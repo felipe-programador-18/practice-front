@@ -73,6 +73,6 @@ const Caught = (e,f,g) => {
 
 }
 
-setInterval(() => {
+setInterval(()=> {
   Caught(Einternal++, Finternal++, Ginternal++)
-}, 600)
+}, 60)

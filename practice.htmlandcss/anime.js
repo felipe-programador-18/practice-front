@@ -57,10 +57,9 @@ threeplay.style.top= '100px'
 threeplay.style.left='50px'
 threeplay.style.right='50px'
 
-
 let Einternal = 0
-let Finteral = 0
-let Gintnal = 0
+let Finternal = 0
+let Ginternal = 0
 
 const Caught = (e,f,g) => {
   
@@ -75,5 +74,5 @@ const Caught = (e,f,g) => {
 }
 
 setInterval(() => {
-  Caught(Einternal++, Finteral++, Gintnal++)
+  Caught(Einternal++, Finternal++, Ginternal++)
 }, 600)

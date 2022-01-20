@@ -54,12 +54,12 @@ setInterval( ()=>{
 let threeplay = document.getElementById('threeplay')
 
 threeplay.style.top= '100px'
-threeplay.style.left='50px'
-threeplay.style.right='50px'
+threeplay.style.left='40px'
+threeplay.style.right='70px'
 
-let Einternal = 0
-let Finternal = 0
-let Ginternal = 0
+let Einternal = 10
+let Finternal = 10
+let Ginternal = 10
 
 const Caught = (e,f,g) => {
   

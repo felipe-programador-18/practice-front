@@ -48,3 +48,32 @@ const Othermove = (a,b,c) =>{
 setInterval( ()=>{
    Othermove(Ainitial++, Binitial++, Cinitial++)
 }, 500)
+
+
+
+let threeplay = document.getElementById('threeplay')
+
+threeplay.style.top= '100px'
+threeplay.style.left='50px'
+threeplay.style.right='50px'
+
+
+let Einternal = 0
+let Finteral = 0
+let Gintnal = 0
+
+const Caught = (e,f,g) => {
+  
+  let pose =e +'pe'
+  let posf =f + 'pf'
+  let posg = g + 'pg'
+   
+  threeplay.style.top= pose
+  threeplay.style.left=posf
+  threeplay.style.right=posg
+
+}
+
+setInterval(() => {
+  Caught(Einternal++, Finteral--, Gintnal --)
+}, 600)

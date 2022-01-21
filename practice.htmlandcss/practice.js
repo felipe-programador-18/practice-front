@@ -32,3 +32,14 @@ const Apende = of => {
 
 const receiveal =  Splint(100,2)
 console.log(receiveal)
+
+
+
+var alunos =  ["Felipe", "Gustavo", "Matheus Bassi", "Bruno Medeiros", "Airton Graça",
+"Pedro Henrique Martins", "Harrisom", "Eduardo", "Daniel Machado" ,"Alfredo"]
+
+console.log(alunos);
+
+for( var i of alunos){
+    console.log(alunos, i);
+}

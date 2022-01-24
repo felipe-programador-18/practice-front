@@ -1,0 +1,13 @@
+
+.practice{
+    width: 300px;
+    height: 400px;
+    background-color: chocolate;
+}
+
+.more{
+    width: 50px;
+    height: 50px;
+    background-color: darkgrey;
+    color: black;
+}

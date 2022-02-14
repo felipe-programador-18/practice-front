@@ -1,0 +1,32 @@
+.container {
+    background-color: grey;
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.one{
+    background-color: red;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: burlywood;
+}
+
+.five{
+    background-color: aquamarine;
+}
+
+.six{
+background-color: coral;
+}
+
+.reac{
+    width: 500px;
+    height: 500px;
+}

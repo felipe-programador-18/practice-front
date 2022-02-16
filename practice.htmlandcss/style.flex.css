@@ -1,7 +1,7 @@
 .container {
    
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 .one{
@@ -30,6 +30,11 @@ background-color: coral;
     height: 200px;
     padding: 30px;
     margin: 10px;
+}
+
+h4::first-letter{
+    color:aqua;
+    font-size: 30px;
 }
 
 h4::first-line{

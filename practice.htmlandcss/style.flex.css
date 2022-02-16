@@ -28,4 +28,10 @@ background-color: coral;
 .reac{
     width: 200px;
     height: 200px;
+    padding: 30px;
+    margin: 10px;
+}
+
+h4::first-line{
+    color: crimson;
 }

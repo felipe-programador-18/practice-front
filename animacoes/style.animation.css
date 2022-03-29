@@ -1,0 +1,31 @@
+@keyframes changeColor {
+	from {
+		background-color: yellow;
+	}
+	to {
+		background-color: tomato;
+	}
+}
+
+@keyframes changeText {
+	from {
+		background-color: cadetblue;
+	}
+	to {
+		background-color: crimson;
+	}
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	animation-name: changeColor;
+	animation-duration: 5s;
+}
+
+.bottle {
+	color: black;
+	animation-duration: 3s;
+	animation-name: changeText;
+}

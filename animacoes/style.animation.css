@@ -1,20 +1,37 @@
 @keyframes changeColor {
 	from {
 		background-color: yellow;
+		width: 200px;
 	}
 	to {
 		background-color: tomato;
+		width: 400px;
+		
 	}
 }
 
 @keyframes changeText {
-	from {
+	0% {
 		background-color: cadetblue;
 	}
-	to {
+	50% {
 		background-color: crimson;
+        border-style: dotted;
+	}
+	50% {
+		background-color: black;
 	}
 }
+
+@keyframes shifetFlex {
+	from{
+		height: 100px;
+	}
+	to{
+    height: 400px;
+	}
+}
+
 
 .box {
 	width: 200px;
@@ -25,7 +42,34 @@
 }
 
 .bottle {
-	color: black;
-	animation-duration: 3s;
+	animation-duration: 6s;
 	animation-name: changeText;
+}
+
+
+.container{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	animation-name: shifetFlex;
+	animation-duration: 6s;
+}
+
+.one{
+	background-color: chocolate;
+}
+.two{
+	background-color: crimson;
+}
+.three{
+	background-color: darkturquoise;
+}
+
+
+
+.reat{
+	height: 100px;
+	width: 100px;
+	padding: 10px;
+	margin: 10px;
 }

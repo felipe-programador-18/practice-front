@@ -22,6 +22,7 @@
     width: 100px;
     background-color: black;
     animation-name: changeColor;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-delay: -2s;
+   
 }

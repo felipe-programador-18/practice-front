@@ -1,0 +1,27 @@
+@keyframes changeColor {
+    0%{
+      background-color: lightskyblue;
+      width: 300px;
+      height: 300px;
+    }
+    50%{
+        background-color: lightgreen;
+        width: 350px;
+        height: 350px;
+    }
+    100%{
+        background-color: orangered;
+        width: 500px;
+        height: 200px;
+    }
+}
+
+
+.box{
+    width: 100px;
+    height:100px;
+    background-color: rebeccapurple;
+    animation-name: changeColor;
+    animation-duration: 6s;
+    animation-iteration-count: 4;
+}

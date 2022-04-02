@@ -1,14 +1,16 @@
 @keyframes changeColor {
-    
+    0%{background-color: wheat; width: 100px;}
+    50%{background-color: turquoise; width: 400px;}
+    100%{background-color: slategrey; width: 100px;}
 }
-
-
-
 
 
 .box{
     width: 250px;
     height: 250px;
     background-color: tomato;
-
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
 }

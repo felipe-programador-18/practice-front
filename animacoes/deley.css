@@ -1,0 +1,26 @@
+@keyframes changeColor {
+    0%{
+        background-color: chocolate;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: red;
+        width: 300px;
+    }
+    100%{
+        background-color: mediumvioletred;
+        width: 100px;
+    }
+    
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: changeColor;
+    animation-duration: 3s;
+}

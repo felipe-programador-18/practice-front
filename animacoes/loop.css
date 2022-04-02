@@ -23,5 +23,5 @@
     background-color: rebeccapurple;
     animation-name: changeColor;
     animation-duration: 6s;
-    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
 }

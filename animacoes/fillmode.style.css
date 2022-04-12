@@ -1,4 +1,9 @@
-@keyframes  {
+@keyframes changeColor {
+    0%{background-color: black; width: 100px;}
+    25%{background-color: rgba(98, 255, 0, 0.978); width: 200px;}
+    50%{background-color: rgba(140, 235, 8, 0.379); width: 300px;}
+    100%{background-color: rgb(219, 61, 61); width: 400px;}
+
     
 }
 
@@ -7,4 +12,7 @@
     height: 200px;
     width: 200px;
     border: solid;
+    animation-duration: 4s;
+    animation-name: changeColor;
+    animation-direction: alternate-reverse;
 }

@@ -1,0 +1,15 @@
+@keyframes changeColor {
+    
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+}

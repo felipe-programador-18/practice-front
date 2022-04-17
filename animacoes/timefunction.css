@@ -2,7 +2,7 @@
     0%{background-color: crimson;}
     25%{background-color: rgb(255, 2, 2);}
     75%{background-color: rgba(70, 92, 91, 0.554);}
-    100%{background-color: rgb(255, 255, 255);}
+    100%{background-color: rgb(255, 255, 255); scroll-padding-top: 10px;}
 }
 
 

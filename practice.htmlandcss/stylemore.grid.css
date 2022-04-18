@@ -43,4 +43,5 @@
     animation-name: changeColor;
     animation-duration: 7s;
     animation-direction: alternate-reverse;
+    align-items: stretch;
 }

@@ -20,7 +20,11 @@
  div > p{
     color: red;
     font-size: large;
-    font-size: 40px;
+    
+}
+
+p:first-of-type{
+ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .one {

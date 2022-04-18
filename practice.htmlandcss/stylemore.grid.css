@@ -1,0 +1,35 @@
+.container {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    margin-bottom: 30px ;
+    grid-template: auto, auto, 1fr, 2fr,3fr;
+    grid-gap: 20px;
+}
+
+
+
+.one{
+    background-color: tomato;
+    padding: 20px;
+}
+   
+.two{
+    background-color: burlywood;
+    padding: 20px;
+}
+.three{
+   background-color: red;
+   padding: 20px;
+}
+   
+.four{
+   background-color: yellowgreen;
+   padding: 20px;
+}
+   
+.reac{
+    height: 100px;
+    width: 100px;
+}

@@ -17,9 +17,10 @@
   
 }
 
-p{
+ div > p{
     color: red;
     font-size: large;
+    font-size: 40px;
 }
 
 .one {

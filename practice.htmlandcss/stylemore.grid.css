@@ -1,13 +1,11 @@
 .container{
     background-color: grey;
-    color: black;
-    padding: 10px;
     display: grid;
-    margin-bottom: 30px ;
-    grid-template: 100px  100px ;
-    grid-gap: 20px;
+    grid-template: auto auto auto / 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 20px;
+ 
 }
-
 
 
 .one {

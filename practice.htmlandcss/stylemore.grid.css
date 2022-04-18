@@ -17,6 +17,10 @@
   
 }
 
+p{
+    color: red;
+    font-size: large;
+}
 
 .one {
     background-color: tomato;

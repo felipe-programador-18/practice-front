@@ -3,9 +3,8 @@
     color: black;
     padding: 10px;
     display: grid;
-    grid-template: 100px 100px / 1fr 2fr 1fr;
-
-    grid-gap:20px;
+    grid-template: 100px 100px;
+    gap:20px;
     margin-bottom: 100px;
    
 }

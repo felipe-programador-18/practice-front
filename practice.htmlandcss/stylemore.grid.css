@@ -1,16 +1,16 @@
-.container {
+.container{
     background-color: grey;
-    width: 100px;
-    height: 100px;
+    color: black;
+    padding: 10px;
     display: grid;
     margin-bottom: 30px ;
-    grid-template: auto, auto, 1fr, 2fr,3fr;
+    grid-template: 100px  100px ;
     grid-gap: 20px;
 }
 
 
 
-.one{
+.one {
     background-color: tomato;
     padding: 20px;
 }

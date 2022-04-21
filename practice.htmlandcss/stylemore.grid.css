@@ -20,7 +20,7 @@
  div > p{
     color: red;
     font-size: large;
-    
+    width:40px;
 }
 
 p:first-of-type{

@@ -1,9 +1,7 @@
-.container {
-   
+.container {  
     display: flex;
-
-
     justify-content: flex-start;
+    align-items: stretch;
 }
 
 .one{
@@ -46,4 +44,29 @@ h4::first-line{
 
 table,td, th{
     border: 1px dashed black;
+}
+
+.anothercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.fe{
+    background-color: aqua;
+}
+.li{
+    background-color: black;
+}
+.pe{
+    background-color: coral;
+}
+.ma{
+    background-color:teal;
+}
+.ti{
+    background-color: crimson;
+}
+
+.test {
+    height: 200px;
+    width: 200px;
 }

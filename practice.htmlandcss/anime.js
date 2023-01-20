@@ -72,7 +72,7 @@ const Caught = (e,f,g) => {
   threeplay.style.right=posg
 
 }
-
+// set interval to manage my time of execution
 setInterval(()=> {
   Caught(Einternal++, Finternal++, Ginternal++)
 },100)

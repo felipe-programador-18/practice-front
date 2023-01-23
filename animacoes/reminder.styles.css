@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(71, 126, 227);
+}
+
+
+.father{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.one{
+    background-color: red;
+    margin: 20px;
+}
+
+.two{
+    background-color: crimson;
+    margin: 20px;
+}
+
+.three{
+    background-color: orangered;
+    margin: 20px;
+}
+
+.four{
+    background-color: yellow;
+    margin: 20px;
+}
+
+.five{
+    background-color: seagreen;
+    margin: 20px;
+}
+
+.reac{
+    width: 200px;
+    height: 200px;
+}

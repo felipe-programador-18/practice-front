@@ -4,6 +4,14 @@ body{
     background-color: rgb(71, 126, 227);
 }
 
+@keyframes changeColor {
+    0%{ background-color: dodgerblue; height:250; }
+    25%{ background-color: rgb(14, 23, 31); height:260; }
+    50%{ background-color: rgb(255, 30, 109); height:270; }
+    100%{ background-color: rgb(190, 210, 230); height:280; }
+    
+}
+
 
 .father{
     display: flex;
@@ -37,7 +45,16 @@ body{
     margin: 20px;
 }
 
-.reac{
+
+.box{
+    animation-name: changeColor;
+    animation-duration: 7s;
+    animation-delay: -2s;
     width: 200px;
     height: 200px;
+}
+
+
+.reac{
+
 }
